@@ -22,7 +22,7 @@ export class ReproductorDeMusica {
                 } else {
                     this.currentNode = this.listaDobleEnlazada.getElementAt(0);
                     this.cancion.src = this.currentNode.getData();
-                    this.cancion.play();
+                    this.cancion.play(); 
                     this.playing = true;
                 }
             }
